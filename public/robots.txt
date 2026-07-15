@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://jacquinot.dev/sitemap.xml
+Sitemap: https://jacquinot.me/sitemap.xml
