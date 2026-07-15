@@ -1,0 +1,86 @@
+{
+  "hero": {
+    "title": "Expériences professionnelles en DevSecOps & Cloud",
+    "description": "Parcours centré sur la sécurisation, l'automatisation et le pilotage d'infrastructures critiques.",
+    "buttonText": "Contactez-moi"
+  },
+  "experienceSection": {
+    "years": ["2024", "2025", "2026"],
+    "experiences": [
+      {
+        "categorie": "Management & Gouvernance",
+        "annee": "2026",
+        "organisation": "ILAFITANY – MADAGASCAR",
+        "sousTitre": "Chef de Groupe – Équipes DevSecOps & Infrastructure",
+        "description": "Pilotage technique et managérial des équipes, définition de la gouvernance technique et des standards d'infrastructure et de sécurité.",
+        "responsabilites": [
+          "Encadrement et animation des équipes DevSecOps et Infrastructure",
+          "Définition de la gouvernance technique et des standards de sécurité",
+          "Supervision des plateformes de conteneurisation et d'orchestration en production",
+          "Accompagnement à la montée en compétences des ingénieurs"
+        ],
+        "resultats": [
+          "Standardisation des environnements",
+          "Fiabilisation des mises en production"
+        ],
+        "tags": ["Leadership", "Kubernetes", "Gouvernance", "Sécurité"],
+        "image": null
+      },
+      {
+        "categorie": "DevSecOps",
+        "annee": "2025",
+        "organisation": "PNUD – ANT SIRABE / FIANARANTSOA",
+        "sousTitre": "Ingénieur DevSecOps",
+        "description": "Mission au sein d'un projet appuyé par le PNUD, en charge de la sécurisation et de l'industrialisation de la chaîne de livraison applicative.",
+        "responsabilites": [
+          "Sécurisation des pipelines CI/CD (Jenkins + SonarQube)",
+          "Déploiement supervision temps réel (Prometheus/Grafana)",
+          "Conteneurisation Docker et orchestration Kubernetes",
+          "Conception API Gateway centralisée (NestJS)"
+        ],
+        "resultats": [
+          "Réduction de 30% du nombre d'incidents",
+          "Mises en production sans interruption de service"
+        ],
+        "tags": ["Jenkins", "SonarQube", "Docker", "Kubernetes", "Prometheus", "Grafana", "NestJS"],
+        "image": "../../assets/logos/pnud-logo-blue.svg"
+      },
+      {
+        "categorie": "DevOps",
+        "annee": "2025",
+        "organisation": "ITDCMADA – FIANARANTSOA",
+        "sousTitre": "DevOps Engineer",
+        "description": "Modernisation de l'infrastructure applicative et optimisation des processus de déploiement.",
+        "responsabilites": [
+          "Migration Cloud Native avec Docker et Rancher",
+          "Conception de pipelines Jenkins multi-environnements",
+          "Administration bases de données (PostgreSQL, MongoDB) et sauvegardes automatisées"
+        ],
+        "resultats": [
+          "Réduction de 50% des délais de déploiement",
+          "Amélioration de la scalabilité"
+        ],
+        "tags": ["Docker", "Rancher", "Jenkins", "PostgreSQL", "MongoDB"],
+        "image": null
+      },
+      {
+        "categorie": "DevOps Lead",
+        "annee": "2024",
+        "organisation": "EMIT – BIBLIOTHÈQUE NUMÉRIQUE",
+        "sousTitre": "Lead DevOps",
+        "description": "Conception d'architecture microservices et industrialisation complète de la chaîne de livraison.",
+        "responsabilites": [
+          "Architecture microservices (7 services Spring Boot/NextJS)",
+          "Automatisation tests et déploiements (Jenkins/Docker)",
+          "Sécurisation des données (Chiffrement PostgreSQL, RBAC)"
+        ],
+        "resultats": [
+          "Gain de 70% sur les délais de livraison",
+          "Prix « Meilleur Projet Technique » Hackathon EMIHACK 3.0"
+        ],
+        "tags": ["Spring Boot", "NextJS", "Jenkins", "Docker", "PostgreSQL"],
+        "image": null
+      }
+    ]
+  }
+}

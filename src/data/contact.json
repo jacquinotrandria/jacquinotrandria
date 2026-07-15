@@ -1,0 +1,27 @@
+{
+  "title": "Contact & collaboration",
+  "description": "Vous avez un projet DevOps, une mission freelance ou un besoin en automatisation et cloud ? N'hésitez pas à me contacter pour en discuter.",
+  "form": {
+    "nom": {
+      "label": "Noms complets",
+      "placeholder": "Votre nom..."
+    },
+    "email": {
+      "label": "Mail",
+      "placeholder": "Votre email..."
+    },
+    "message": {
+      "label": "Messages",
+      "placeholder": "Décrivez brièvement votre besoin, votre projet ou votre mission."
+    }
+  },
+  "confidentialite": "Vos informations resteront confidentielles. Je vous répondrai dans les plus brefs délais",
+  "buttonText": "Discutons de votre projet",
+  "map": {
+    "src": "https://www.openstreetmap.org/export/embed.html?bbox=47.07,-21.46,47.10,-21.44&layer=mapnik&marker=-21.4536,47.0852",
+    "title": "Localisation"
+  },
+  "testimonials": {
+    "background": "radial-gradient(ellipse at 80% 50%, rgba(13, 90, 75, 0.35) 0%, transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(10, 60, 55, 0.4) 0%, transparent 50%), linear-gradient(135deg, #0b2622 0%, #0d2e29 40%, #102e28 70%, #0a1f1c 100%)"
+  }
+}

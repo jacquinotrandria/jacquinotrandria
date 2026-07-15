@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "title": "Projets DevSecOps & Infrastructures Cloud",
+    "description": "Automatisation CI/CD, sécurisation des pipelines et fiabilité des systèmes en environnements de production critiques.",
+    "buttonText": "Contactez-moi"
+  },
+  "listProject": {
+    "categories": ["TOUS", "DEVSECOPS", "CLOUD NATIVE", "CI/CD", "ARCHITECTURE"],
+    "projets": [
+      {
+        "categorie": "DEVSECOPS",
+        "organisation": "PNUD – PROGRAMME DES NATIONS UNIES POUR LE DÉVELOPPEMENT – 2025",
+        "sousTitre": "Sécurisation et industrialisation de la chaîne de livraison",
+        "description": "Implémentation de pipelines Jenkins intégrant SonarQube pour l'analyse de vulnérabilités et déploiement d'une supervision temps réel réduisant les incidents de 30%.",
+        "tags": ["Jenkins", "SonarQube", "Docker", "Kubernetes", "Prometheus", "Grafana", "NestJS"],
+        "image": null
+      },
+      {
+        "categorie": "CLOUD NATIVE",
+        "organisation": "ITDCMADA – 2025",
+        "sousTitre": "Migration vers une infrastructure Cloud Native",
+        "description": "Modernisation de l'infrastructure applicative avec Docker et Rancher, optimisation des pipelines multi-environnements réduisant les délais de déploiement de 50%.",
+        "tags": ["Docker", "Rancher", "Jenkins", "PostgreSQL", "MongoDB"],
+        "image": null
+      },
+      {
+        "categorie": "ARCHITECTURE",
+        "organisation": "EMIT – BIBLIOTHÈQUE NUMÉRIQUE (EMILIB) – 2024",
+        "sousTitre": "Architecture Microservices & Automatisation CI/CD",
+        "description": "Conception d'une architecture de 7 microservices indépendants et automatisation complète des tests/déploiements, générant un gain de 70% sur les délais de livraison.",
+        "tags": ["Spring Boot", "NextJS", "Jenkins", "Docker", "PostgreSQL", "RBAC"],
+        "image": null
+      },
+      {
+        "categorie": "DEVSECOPS",
+        "organisation": "ILAFITANY – CHEF DE GROUPE – DEPUIS 2026",
+        "sousTitre": "Gouvernance technique et standardisation Infrastructure",
+        "description": "Pilotage technique des équipes DevSecOps, définition des standards de sécurité et supervision des plateformes de conteneurisation en production.",
+        "tags": ["Kubernetes", "Docker", "Leadership Technique", "Gouvernance", "Sécurité"],
+        "image": null
+      }
+    ]
+  }
+}

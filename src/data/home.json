@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "titleParts": {
+      "lead": "DevOps Engineer spécialisé en",
+      "accent1": "infrastructures cloud-native",
+      "connector": "et",
+      "accent2": "automatisation CI/CD"
+    },
+    "description": "J'aide les équipes à déployer plus vite, plus sûrement et à grande échelle grâce à des pipelines CI/CD fiables et sécurisés.",
+    "cta": "Voir mes projets →"
+  },
+  "trustedMarquee": {
+    "title1": "Ils m'ont",
+    "title2": "fait confiance",
+    "duration": 20,
+    "logos": [
+      { "src": "../../assets/logos/logo-pnud.png", "alt": "PNUD", "label": "Programme des Nations Unies pour le Développement" },
+      { "src": "../../assets/logos/logo-itdc.png", "alt": "ITDCMADA", "label": "ITDCMADA" },
+      { "src": "../../assets/logos/logo-emit.png", "alt": "EMIT", "label": "Ecole de Management et d'Innovation Technologique" },
+      { "src": "../../assets/logos/logo-ilafitany.png", "alt": "Ilafitany", "label": "Ilafitany" },
+      { "src": "../../assets/logos/logo-pnud.png", "alt": "PNUD", "label": "Programme des Nations Unies pour le Développement" },
+      { "src": "../../assets/logos/logo-emit.png", "alt": "EMIT", "label": "Ecole de Management et d'Innovation Technologique" }
+    ]
+  },
+  "about": {
+    "badge": "A PROPOS",
+    "title": "Jacquinot Randrianomenjanahary, Ingénieur DevSecOps évoluant vers un rôle de Chef de Groupe, avec une expertise en Cloud Native, Kubernetes et sécurisation de pipelines.",
+    "diplomes": [
+      { "titre": "Master", "description": "Modélisation et Ingénierie\nInformatique" },
+      { "titre": "Licence", "description": "Développement d'Application\nInternet – Intranet" }
+    ],
+    "techIcons": ["Docker", "Kubernetes", "Terraform"],
+    "buttonText": "Voir mes réalisations",
+    "images": {
+      "img1": "../../assets/icons/about4.jpeg",
+      "img2": "../../assets/icons/about2.jpg",
+      "img3": "../../assets/icons/about3.png"
+    }
+  },
+  "skills": {
+    "badge": "COMPÉTENCES",
+    "title": "Ce que je fais",
+    "description": "J'interviens sur l'ensemble du cycle DevOps : CI/CD, Kubernetes, observabilité, sécurité et fiabilité des plateformes.",
+    "skills": [
+      {
+        "title": "CI/CD &\nDevSecOps",
+        "description": "Pipelines Jenkins/GitHub Actions sécurisés avec SonarQube (SAST). Automatisation des déploiements et gestion des vulnérabilités."
+      },
+      {
+        "title": "Cloud Native &\nOrchestration",
+        "description": "Conteneurisation Docker, orchestration Kubernetes/Rancher. Gestion de clusters multi-environnements et haute disponibilité."
+      },
+      {
+        "title": "Observabilité &\nFiabilité",
+        "description": "Monitoring temps réel avec Prometheus & Grafana. Réduction des incidents et supervision applicative en production."
+      },
+      {
+        "title": "Architecture &\nBackend",
+        "description": "Conception d'API Gateway (NestJS), architectures microservices (Spring Boot), et sécurisation des données (RBAC, chiffrement)."
+      }
+    ],
+    "buttonText": "Contactez-moi"
+  },
+  "testimonials": {
+    "temoignages": [
+      {
+        "citation": "La mise en place de la supervision Prometheus/Grafana a permis de",
+        "gras": "réduire les incidents de production de 30%",
+        "suite": " tout en offrant une visibilité temps réel essentielle pour nos opérations.",
+        "nom": "Projet PNUD",
+        "role": "Contexte International",
+        "initiales": "PN"
+      },
+      {
+        "citation": "L'industrialisation des pipelines CI/CD a réduit nos délais de déploiement de",
+        "gras": "50% à 70%",
+        "suite": " selon les projets, transformant notre capacité à livrer de la valeur rapidement.",
+        "nom": "Projets ITDCMADA & EMIT",
+        "role": "Optimisation Processus",
+        "initiales": "IT"
+      },
+      {
+        "citation": "Une expertise technique solide couplée à une capacité de leadership pour",
+        "gras": "standardiser les environnements",
+        "suite": " et accompagner la montée en compétences des équipes techniques.",
+        "nom": "Ilafitany",
+        "role": "Management Technique",
+        "initiales": "IL"
+      }
+    ],
+    "buttonText": "Contactez-moi"
+  }
+}

@@ -1,0 +1,179 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1d4851;
+  --color-secondary: #00b8ba;
+  --color-white: #ffffff;
+  --color-black: #1d1b20;
+  --color-gray: #cac5cd;
+}
+
+/* Randria palette utilities: background, text, border */
+.bg-randria-primary {
+  background-color: var(--color-primary);
+}
+.text-randria-primary {
+  color: var(--color-primary);
+}
+.border-randria-primary {
+  border-color: var(--color-primary);
+}
+
+.bg-randria-secondary {
+  background-color: var(--color-secondary);
+}
+.text-randria-secondary {
+  color: var(--color-secondary);
+}
+.border-randria-secondary {
+  border-color: var(--color-secondary);
+}
+
+.bg-randria-white {
+  background-color: var(--color-white);
+}
+.text-randria-white {
+  color: var(--color-white);
+}
+.border-randria-white {
+  border-color: var(--color-white);
+}
+
+.bg-randria-black {
+  background-color: var(--color-black);
+}
+.text-randria-black {
+  color: var(--color-black);
+}
+.border-randria-black {
+  border-color: var(--color-black);
+}
+
+.bg-randria-gray {
+  background-color: var(--color-gray);
+}
+.text-randria-gray {
+  color: var(--color-gray);
+}
+.border-randria-gray {
+  border-color: var(--color-gray);
+}
+
+/* Gradients linéaires personnalisés */
+.bg-gradient-to-r {
+  background-image: linear-gradient(
+    to right,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.bg-gradient-to-l {
+  background-image: linear-gradient(
+    to left,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.bg-gradient-to-t {
+  background-image: linear-gradient(
+    to top,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.bg-gradient-to-b {
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.bg-gradient-to-bl {
+  background-image: linear-gradient(
+    to bottom left,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(
+    to top right,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+.bg-gradient-to-tl {
+  background-image: linear-gradient(
+    to top left,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+}
+
+/* Background testimonial - dégradé radial sombre style "deep ocean" */
+.bg-testimonial {
+  background: radial-gradient(
+    ellipse 80% 60% at 50% 50%,
+    #1d4851 0%,
+    #0d2e35 40%,
+    #081a1e 70%,
+    #040d0f 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+/* Variante avec texture grain subtile (optionnel) */
+.bg-testimonial-textured::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+/* Fontes personnalisées */
+@font-face {
+  font-family: "Grifter";
+  src: url("@/assets/fonts/grifter-bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("@/assets/fonts/WorkSans-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Grifter", sans-serif;
+}
+
+p,
+span {
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: var(--color-gray);
+}
